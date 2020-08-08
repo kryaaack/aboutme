@@ -1,0 +1,111 @@
+* {
+  font-family: "Comfortaa", cursive;
+}
+
+section {
+  background-image: url(/img/main_bg.png);
+  background-size: cover;
+  min-height: 900px;
+  padding: 150px 187px 150px 187px;
+}
+
+.all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.about {
+  max-width: 625px;
+}
+
+.whoiam {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFF0DC;
+}
+
+.divider {
+  width: 180px;
+  height: 2px;
+  border: 1px solid #FF7A00;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.main_btn {
+  width: 269px;
+  height: 58px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.btn_text {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.icons {
+  margin-top: 30px;
+  display: inline-block;
+}
+.icons img {
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+  margin-left: 47px;
+}
+.icons .first_icon {
+  margin-left: 0px;
+}
+
+.avatar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 347px;
+  height: 347px;
+}
+.avatar img {
+  width: 347px;
+  -webkit-filter: drop-shadow(0px -5px 20px rgba(255, 255, 255, 0.3)), drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.25)), drop-shadow(0px 20px 15px rgba(0, 0, 0, 0.25)), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px -5px 20px rgba(255, 255, 255, 0.3)), drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.25)), drop-shadow(0px 20px 15px rgba(0, 0, 0, 0.25)), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*# sourceMappingURL=style.css.map */
