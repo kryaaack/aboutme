@@ -3,7 +3,7 @@
 }
 
 section {
-  background-image: url('/img/main_bg.png');
+  background-image: url('../img/main_bg.png');
   background-size: cover;
   min-height: 900px;
   padding: 150px 187px 150px 187px;
